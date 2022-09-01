@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "E7QT8dY8Q0eVdAmCkX8qeMyXI1SJMaNrqMWjZjm9bf5Eiqw9JG1QVdE/Ghz9EntcgOEIser9wN2XZ7TCT4+5rQ==",
+  "success": true,
+  "projectFilePath": "/Users/isumairu/RiderProjects/DotLiquidTest/DotLiquidTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/isumairu/.nuget/packages/dotliquid/2.2.656/dotliquid.2.2.656.nupkg.sha512",
+    "/Users/isumairu/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

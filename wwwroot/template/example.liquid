@@ -1,0 +1,24 @@
+<div>
+    <h3>The template content</h3>
+    <p>
+        Name: {{ employee.name }}
+    </p>
+    <p>
+        Email: {{ employee.email }}
+    </p>
+    <p>
+        Phone: {{ employee.phone }}
+    </p>
+    <p>Addresses:</p>
+    <div>
+        {% for addr in employee.address.Addresses -%}
+            <div>
+                <p>Street: {{ addr.Street }}</p>
+                <p>City: {{ addr.City }}</p>
+                <p>State: {{ addr.State }}</p>
+                <p>Zip: {{ addr.Zip }}</p>
+                <p>Country: {{ addr.Country }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
